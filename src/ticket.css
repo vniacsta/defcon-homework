@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    text-align: center;
+    background: #080808;
+    color: #fff;
+}
+
+.back {
+    color: #fff;
+}
+
+.back:hover {
+    color: #3ffe00;
+}
+
+.congrats-title {
+    font-family: "Acme", sans-serif;
+    padding: 25px;
+}
+
+.save-date {
+    margin: 40px auto;
+    color: #000;
+    background: #3ffe00ea;
+    border-radius: 4px;
+    width: max-content;
+    padding: 20px;
+}
+
+.qrcode {
+    width: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+}
+
+.links a {
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 75px;
+}
+
+.footer a {
+    color: #fff;
+}

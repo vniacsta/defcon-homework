@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background: #000;
+    color: rgb(180, 180, 180);
+}
+
+.carousel {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.surprise {
+    display: block;
+    margin: 100px auto;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    background: rgb(180, 180, 180);
+    transition: 0.5s ease-in-out;
+}
+
+.surprise:hover {
+    background: rgb(148, 148, 148);
+    border: none;
+}
+
+.surprise:focus {
+    box-shadow: none;
+}
+
+.surprise-form {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: #3ffe00;
+    border-color: #3ffe00;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-label {
+    color: rgb(180, 180, 180);
+}
+
+.form-check-label a {
+    color: #3ffe00;
+}
+
+.submit-btn {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    width: max-content;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #3ffe00, #48c41e);
+    transition: 0.5 ease-in-out;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-position: right;
+}
+
+.submit-btn:focus {
+    box-shadow: none;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer a {
+    color: rgb(180, 180, 180);
+}
